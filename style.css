@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bdb8b8;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.judulheader {
+  padding: 0 0.5rem;
+  text-shadow: 2px 0 3px #a73636;
+  letter-spacing: 0.3rem;
+}
+
+.subheader {
+  background-color: #a73636;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subheader ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subheader li {
+  padding: 0 1rem;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.subheader li:hover {
+  background-color: #cd4c4c;
+  cursor: pointer;
+}
+
+.subheader a {
+  text-decoration: none;
+  color: #bdb8b8;
+}
+
+article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.judulArticle {
+  line-height: 0.5rem;
+  padding: 3rem 1rem;
+}
+
+.judulArticle h1 {
+  color: #a73636;
+  font-size: 3rem;
+  text-shadow: 5px 0 7px black;
+}
+
+.about {
+  padding: 3rem 1rem;
+  border: 2px solid black;
+  background-color: rgb(177, 177, 177);
+}
+
+.about p {
+  line-height: 2rem;
+}
+
+.contoh {
+  padding: 1rem 1rem;
+}
+.contoh a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contoh a:hover {
+  color: #a73636;
+}
+
+.gambar_game {
+  display: flex;
+  flex-direction: column;
+}
+
+.bingkai_image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.bingkai_image img {
+  height: 15rem;
+  width: 20rem;
+  padding: 0 1rem;
+}
+
+.bingkai_image img:hover {
+  opacity: 95%;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(177, 177, 177);
+  padding: 1rem;
+  border-top: 2px solid black;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2rem;
+}
+
+.about_other {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 760px) {
+  .bingkai_image img {
+    height: 13rem;
+    width: 18rem;
+  }
+}
