@@ -49,6 +49,31 @@
                 </tr>
             </table>
         </div>
+        <div class="form_remember">
+          <h2>Simpan jejakmu disini!</h2>
+          <form action="" id="form_remember">
+            <label for="username">Username game :</label>
+            <input type="text" id="username" required maxlength="30">
+            <p>Apakah punya akun steam ?</p>
+            <input type="radio" id="yes_have" name="status_steam" value="punya" required>
+            <label for="yes_have">Iya</label>
+            <input type="radio" id="no_havent" name="status_steam" value="tidak" required>
+            <label for="no_havent">Tidak</label>
+            <p>Apa pendapatmu dengan genre gameku ?</p>
+            <textarea name="" id="komentar" required minlength="5"></textarea>
+            <button type="submit" id="tombol_submit">Submit</button>
+            <button type="button" id="tombol_reset">Reset form lama</button>
+          </form>
+        </div>
+        <div class="answer_user">
+          <h1>Rekaman jejak para pengunjung</h1>
+          <div class="" id="">
+            <p id="list_answer"></p>
+            <!-- <p >Lorem, ipsum dolor.</p>
+            <p>Punya Steam : Iya</p>
+            <p>Lorem, ipsum dolor Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p> -->
+          </div>
+        </div>
        
             
     </article>
@@ -58,4 +83,5 @@
       <h3>Fauzi Ilyas Saputra 2026 @copy right reserve</h3>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
